@@ -1,0 +1,6 @@
+{
+  "name": "Thế Giới Toán Học Lớp 1",
+  "description": "Ứng dụng giáo dục môn Toán lớp 1 theo GDPT 2018 - Cùng học Toán với cô giáo Trần Thị Phượng, 38 trò chơi 3D diệu kỳ, bài học tương tác chuẩn SGK Kết nối tri thức và hệ thống theo dõi học sinh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="60%" stop-color="#BAE6FD" />
+      <stop offset="100%" stop-color="#7DD3FC" />
+    </linearGradient>
+    <linearGradient id="aoDai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="40%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1EB" />
+      <stop offset="60%" stop-color="#FED7AA" />
+      <stop offset="100%" stop-color="#FDBA74" />
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="70%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="plantPot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="railing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#FEF08A" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background: Soft Sky & School Balcony -->
+  <rect width="600" height="700" fill="url(#bgSky)" />
+  <circle cx="120" cy="140" r="130" fill="url(#sunGlow)" />
+
+  <!-- Background Architecture Pillars -->
+  <rect x="0" y="0" width="80" height="700" fill="#38BDF8" opacity="0.4" />
+  <rect x="520" y="0" width="80" height="700" fill="#0284C7" opacity="0.3" />
+
+  <!-- Balcony Railing (Blue bars) -->
+  <g opacity="0.95">
+    <rect x="0" y="380" width="280" height="24" rx="8" fill="url(#railing)" />
+    <!-- Vertical bars -->
+    <rect x="25" y="404" width="16" height="296" rx="6" fill="url(#railing)" />
+    <rect x="65" y="404" width="16" height="296" rx="6" fill="url(#railing)" />
+    <rect x="105" y="404" width="16" height="296" rx="6" fill="url(#railing)" />
+    <rect x="145" y="404" width="16" height="296" rx="6" fill="url(#railing)" />
+    <rect x="185" y="404" width="16" height="296" rx="6" fill="url(#railing)" />
+    <rect x="225" y="404" width="16" height="296" rx="6" fill="url(#railing)" />
+  </g>
+
+  <!-- Potted Plant on Balcony Railing -->
+  <g transform="translate(90, 240)">
+    <!-- Hanging pot attached to rail -->
+    <path d="M10 140 C10 130 90 130 90 140 L80 190 C78 200 22 200 20 190 Z" fill="url(#plantPot)" stroke="#CBD5E1" stroke-width="2" />
+    <rect x="5" y="132" width="90" height="12" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5" />
+    <!-- Plant Leaves (Variegated white & green Caladium) -->
+    <path d="M50 130 Q30 70 20 40 Q50 60 55 125" fill="#86EFAC" stroke="#15803D" stroke-width="2" />
+    <path d="M50 130 Q70 60 90 30 Q75 75 55 125" fill="#BBF7D0" stroke="#15803D" stroke-width="2" />
+    <path d="M50 130 Q10 90 -5 70 Q25 95 45 125" fill="#4ADE80" stroke="#15803D" stroke-width="2" />
+    <path d="M50 130 Q80 90 110 75 Q85 105 55 125" fill="#86EFAC" stroke="#15803D" stroke-width="2" />
+    <path d="M50 130 Q45 50 48 10 Q58 50 52 125" fill="#DCFCE7" stroke="#16A34A" stroke-width="2" />
+    <!-- Leaf veins & white flecks -->
+    <circle cx="35" cy="55" r="4" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="70" cy="50" r="5" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="48" cy="30" r="3" fill="#FFFFFF" opacity="0.9" />
+    <circle cx="15" cy="75" r="3.5" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="85" cy="80" r="4" fill="#FFFFFF" opacity="0.8" />
+  </g>
+
+  <!-- Cô giáo Trần Thị Phượng Portrait Body & Áo Dài -->
+  <!-- Long dark hair falling down shoulders -->
+  <path d="M340 180 Q320 280 300 370 Q370 360 460 370 Q480 270 455 180 Z" fill="url(#hair)" />
+
+  <!-- Áo Dài Torso (Sky Blue) -->
+  <path d="M330 290 Q390 305 450 290 L465 520 Q440 640 430 700 L320 700 Q315 620 310 520 Z" fill="url(#aoDai)" />
+
+  <!-- Traditional Áo Dài high round collar -->
+  <path d="M365 265 Q390 280 415 265 L415 295 Q390 308 365 295 Z" fill="#0284C7" stroke="#0369A1" stroke-width="1.5" />
+  <!-- Delicate pearl trim on neckline -->
+  <g fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1">
+    <circle cx="370" cy="275" r="2.8" />
+    <circle cx="377" cy="281" r="2.8" />
+    <circle cx="384" cy="284" r="2.8" />
+    <circle cx="391" cy="285" r="2.8" />
+    <circle cx="398" cy="284" r="2.8" />
+    <circle cx="405" cy="281" r="2.8" />
+    <circle cx="411" cy="275" r="2.8" />
+  </g>
+
+  <!-- Pearl button line running diagonally down shoulder -->
+  <g fill="#FFFFFF" stroke="#E2E8F0" stroke-width="0.8">
+    <circle cx="413" cy="295" r="2.2" />
+    <circle cx="418" cy="310" r="2.2" />
+    <circle cx="423" cy="325" r="2.2" />
+    <circle cx="428" cy="340" r="2.2" />
+    <circle cx="432" cy="355" r="2.2" />
+    <circle cx="435" cy="370" r="2.2" />
+    <circle cx="437" cy="385" r="2.2" />
+  </g>
+
+  <!-- Neck & Chin -->
+  <path d="M372 230 L372 270 Q390 280 408 270 L408 230 Z" fill="url(#skin)" />
+  <path d="M372 255 Q390 268 408 255" stroke="#FDBA74" stroke-width="2" fill="none" opacity="0.6" />
+
+  <!-- Right Arm (Bent gracefully supporting hand to chin) -->
+  <!-- Upper arm & elbow -->
+  <path d="M335 295 Q295 380 290 440 Q315 450 335 435 Q340 370 365 315 Z" fill="url(#aoDai)" />
+  <!-- Forearm coming up to cheek -->
+  <path d="M290 440 Q330 360 365 240 Q380 245 375 270 Q340 390 325 445 Z" fill="url(#aoDai)" />
+  <!-- Sleeve cuff with delicate pearls -->
+  <g fill="#FFFFFF" stroke="#E2E8F0" stroke-width="0.8">
+    <circle cx="363" cy="250" r="2" />
+    <circle cx="367" cy="254" r="2" />
+    <circle cx="371" cy="258" r="2" />
+    <circle cx="375" cy="262" r="2" />
+  </g>
+
+  <!-- Hand touching chin gracefully -->
+  <path d="M360 220 C355 210 365 195 370 205 L372 225 L368 235 Z" fill="url(#skin)" stroke="#FDBA74" stroke-width="1" />
+  <!-- Slender fingers -->
+  <path d="M363 205 Q358 190 365 185 Q370 190 368 205" fill="url(#skin)" />
+
+  <!-- Left Arm (Resting gracefully across waist) -->
+  <path d="M445 300 Q485 390 475 480 Q450 490 435 470 Q445 390 430 320 Z" fill="url(#aoDai)" />
+  <path d="M475 480 Q400 480 320 450 Q315 430 340 430 Q410 455 455 460 Z" fill="url(#aoDai)" />
+
+  <!-- Head & Face Profile (Slight 3/4 angle, warm authentic smile) -->
+  <!-- Face oval -->
+  <path d="M350 170 Q345 225 390 238 Q435 225 435 170 Q435 110 390 110 Q350 110 350 170 Z" fill="url(#skin)" />
+
+  <!-- Hair Shape & Volume (Long black hair parted smoothly) -->
+  <path d="M345 170 Q340 120 385 105 Q445 100 445 150 Q455 210 445 240 Q435 220 435 180 Q435 130 390 125 Q355 130 350 170 Z" fill="url(#hair)" />
+  <!-- Hair strands in front and side -->
+  <path d="M350 160 Q365 130 395 125 Q375 145 365 170 Z" fill="url(#hair)" />
+  <!-- Cute hair accessory clip on right -->
+  <rect x="440" y="135" width="6" height="18" rx="3" fill="#F43F5E" transform="rotate(25 440 135)" />
+  <circle cx="447" cy="142" r="3" fill="#FBBF24" />
+
+  <!-- Beautiful, Kind Eyes -->
+  <!-- Left Eye -->
+  <path d="M368 165 Q378 158 388 165" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <ellipse cx="378" cy="168" rx="4.5" ry="5.5" fill="#0F172A" />
+  <circle cx="376" cy="166" r="1.8" fill="#FFFFFF" />
+  <!-- Eye crease & eyelashes -->
+  <path d="M368 162 Q378 156 388 162" stroke="#475569" stroke-width="1" fill="none" opacity="0.6" />
+  <!-- Eyebrow -->
+  <path d="M365 152 Q377 146 389 152" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- Right Eye -->
+  <path d="M402 165 Q412 158 422 165" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <ellipse cx="412" cy="168" rx="4.5" ry="5.5" fill="#0F172A" />
+  <circle cx="410" cy="166" r="1.8" fill="#FFFFFF" />
+  <path d="M402 162 Q412 156 422 162" stroke="#475569" stroke-width="1" fill="none" opacity="0.6" />
+  <!-- Eyebrow -->
+  <path d="M400 152 Q412 146 424 152" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- Nose -->
+  <path d="M394 165 L392 188 Q396 193 400 188" stroke="#FDBA74" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- Rosy Cheeks -->
+  <circle cx="365" cy="188" r="9" fill="#FB7185" opacity="0.3" filter="blur(3px)" />
+  <circle cx="422" cy="188" r="9" fill="#FB7185" opacity="0.3" filter="blur(3px)" />
+
+  <!-- Bright, Warm Smile -->
+  <path d="M380 205 Q395 220 410 205 Q395 210 380 205 Z" fill="#E11D48" />
+  <!-- White teeth showing -->
+  <path d="M382 206 Q395 214 408 206 Q395 208 382 206 Z" fill="#FFFFFF" />
+
+  <!-- Floating Fairy-tale Sparkles & Stars -->
+  <g fill="#FBBF24" opacity="0.9">
+    <path d="M500 90 Q505 105 520 110 Q505 115 500 130 Q495 115 480 110 Q495 105 500 90 Z" />
+    <path d="M80 60 Q83 72 95 75 Q83 78 80 90 Q77 78 65 75 Q77 72 80 60 Z" />
+    <circle cx="510" cy="180" r="4" fill="#F43F5E" />
+    <circle cx="100" cy="320" r="5" fill="#38BDF8" />
+  </g>
+</svg>
